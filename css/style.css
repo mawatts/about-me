@@ -1,0 +1,85 @@
+body {
+/* Typography Declarations */
+  color: #222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f5fcfe;
+}
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align: center;
+}
+.masthead {
+  background-image: url("http://i.imgur.com/SP7e8iN.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #738e99;
+  padding: 6em 0;
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ef4a1a;
+  text-shadow: 4px 4px 3px #000;
+}
+.intro-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.intro-section > p,
+.location-section > p,
+.content-footer > p {
+/* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > dl > dt {
+/* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+/* Layout */
+  margin: 2em 0 1em 0;
+  color: #ef4a1a;
+}
+.content-footer {
+  background-color: #738e99;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6em 0;
+}
+.social > li {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 1em;
+}
+/* Responsive Design */
+@media only screen and (max-width: 450px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer {
+    padding: 1em 0;
+    font-size: 1em;
+  }
+  .content-footer .social {
+    display: inline-table;
+  }
+}
